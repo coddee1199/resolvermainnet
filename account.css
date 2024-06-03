@@ -1,0 +1,43 @@
+body, html{
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.bg-image{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-image: url('images/Background2.png');
+    background-size: cover;
+    background-position: center;
+    filter: blur(3px);
+    z-index: -1;
+}
+.wallet-container p {
+    color: rgb(88, 98, 109);
+}
+
+.wallet-container h2 {
+    color: white;
+    font-size: 26px;
+}
+
+.wallet-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 2px;
+    background-color: rgb(7, 7, 22);
+    padding: 2px;
+    box-sizing: border-box;
+    max-width: 500px;
+    margin: 0 auto;
+    width: 100%;
+}
+.walletgrid {
+    background-color: transparent;
+    border: 2px solid slategray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
